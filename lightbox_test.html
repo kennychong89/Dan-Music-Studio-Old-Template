@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		<meta name="description" content="">
+		<meta name="authoer" content="">
+
+		<title>Dan's Music Studio</title>
+
+		<!-- Bootstrap core -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom css here -->	
+		<link href="css/custom.css" rel="stylesheet">
+
+		<!-- Font Awesome -->
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
+	</head>
+
+	<body>
+	<div id="instructor-info">
+	   <div class="container centered">
+	   				<h2 class="heading">Meet Our Talented Instructors</h2>
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<a href="#" tabindex="0" id="testing" data-toggle="popover" title="Meet Angelica" data-content="Rocks with the guitar." data-trigger="focus">	
+								<img class="img-circle" src="./images/angelica.jpg" alt="instr1">
+								<h3 class="name">Angelica Gales</h3>
+							</a>
+
+							
+
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<img class="img-circle" data-src="holder.js/150x150" alt="instr2">
+							<h3 class="name">Jane Doe</h3>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<img class="img-circle" data-src="holder.js/150x150" alt="instr3">
+							<h3 class="name">Larry Moe</h3>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<img class="img-circle" data-src="holder.js/150x150" alt="instr4">
+							<h3 class="name">Anna Low</h3>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<img class="img-circle" data-src="holder.js/140x140" alt="instr1">
+							<h3>Kevin Dot</h3>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<img class="img-circle" data-src="holder.js/140x140" alt="instr2">
+							<h3>Jen You</h3>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<img class="img-circle" data-src="holder.js/140x140" alt="instr3">
+							<h3>Anthony Moore</h3>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<img class="img-circle" data-src="holder.js/140x140" alt="instr4">
+							<h3>Stacey Louis</h3>
+						</div>
+				</div>
+		</div>
+	</div>
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/holder.js"></script>
+
+
+		<script type="text/javascript">
+				$(document).ready(function() {		
+					$("#testing").popover({title: 'Meet Angelica', html:true});
+				});
+		</script>
+	</body>
+</html>
